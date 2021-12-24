@@ -3,81 +3,119 @@
 font-family: 'Poppins', sans-serif;
 font-family: 'Yuji Hentaigana Akebono', cursive; */
 .container {
-  padding: 0 2rem;
   text-align: center;
+}
+.hambuger{
+  margin-top: 2%;
+  margin-left: 87%;
 }
 .hr{
   margin-top: 5%;
   border: 1px solid #000;
   width: 40%;
-  z-index: 1;
+ 
 }
-.backimg{
-  z-index: 0;
+header .title{
+  margin-top: 30%;
 }
 .title {
-  margin-top:40%;
+  
   line-height: 1.15;
   font-size: 2em;
-  z-index: 1;
+  
 }
 .description {
   line-height: 1.5;
   font-size: 1.5rem;
-  z-index: 1;
+  
 }
-/* .main {
-  color: #fff;
-} */
+.whitesection{
+  background-color: rgba(255, 255, 255, 0.582);
+  padding: 5%;
+  text-align: center;
+}
+.portfolio{
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+}
+.resume{
+  padding-bottom: 1.5%;
+}
 
 .footer {
   font-size: .9em;
 }
-
-
-.grid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-sizing: border-box;
+  height: 15em;
+  width: 90%;
+  margin-left: 5%;
+  text-align: center;
 }
-
-.card {
-  margin: 1rem;
-  padding: 1.5rem;
+.button{
+  width: 50%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.form{
   text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
+  font-size: .9em;
+}
+.formtext {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.textarea {
+  width: 100%;
+  height: 20vh;
+  margin: 8px 0;
+  padding: 5% 7%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+.formbutton {
+  text-align: center;
+}
+.submit {
+  width: 60%;
+  font-size: 1.0em;
+  background-color: #4CAF50;
+  color: white;
+  padding: 5% 7%;
+  margin: 3%;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+.submit:hover {
+  background-color: #45a049;
 }
-
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
+.socialicons{
+  display: flex;
+  margin-left: 25%; 
 }
-
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
+.icon{
+  padding: 2% 10% 0 0 ;
 }
-
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
+.footer{
+  font-size: .7em;
 }
-
 @media (max-width: 600px) {
   .grid {
     width: 100%;
