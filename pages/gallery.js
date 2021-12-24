@@ -1,4 +1,4 @@
-
+import styles from '../styles/Home.module.css';
 function Gallery(){
     return(
        <div className={styles.footer}>
