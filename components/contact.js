@@ -5,6 +5,7 @@ function Contact(){
     return(
         <section className={styles.contact}>
           <div className={styles.whitesection}>
+            <div className={styles.flexbox}>
             <h1 className={styles.title}>
                Get In Touch
             </h1>
@@ -35,6 +36,7 @@ function Contact(){
               <div className={styles.icon}>
                 <a href="#"><Image src="/fb.png" height={30} width={30}/></a> 
               </div>
+            </div>
             </div>
           </div>
         </section>

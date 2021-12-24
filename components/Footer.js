@@ -1,7 +1,7 @@
-import Image from 'next/image'
+
 import styles from '../styles/Home.module.css'
 
-function footers(){
+function Footer(){
  return(
     <footer className={styles.footer}>
         <h3> © copyright since 2021 </h3>
@@ -10,4 +10,4 @@ function footers(){
       </footer>
  )
 }
-export default footers
+export default Footer

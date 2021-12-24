@@ -30,7 +30,7 @@ header .title{
   
 }
 .whitesection{
-  background-color: rgba(255, 255, 255, 0.582);
+  background-color: rgba(255, 255, 255, 0.829);
   padding: 5%;
   text-align: center;
 }
@@ -108,7 +108,7 @@ header .title{
 }
 .socialicons{
   display: flex;
-  margin-left: 25%; 
+  margin-left: 30%; 
 }
 .icon{
   padding: 2% 10% 0 0 ;
@@ -116,9 +116,97 @@ header .title{
 .footer{
   font-size: .7em;
 }
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
+.footer{
+  text-align: center;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+}
+
+.navmenu {
+  text-align: center;
+  position: fixed;
+  right: -100%;
+  top: 5rem;
+  flex-direction: column;
+  background-color: #fff;
+  width: 100%;
+  border-radius: 10px;
+  text-align: center;
+  transition: 0.3s;
+  box-shadow:
+      0 10px 27px rgba(0, 0, 0, 0.05);
+}
+
+.navmenu.active {
+  right: 2%;
+}
+
+.navitem {
+  margin: 2.5rem 0;
+}
+
+.hamburger {
+  display: block;
+  cursor: pointer;
+}
+
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+  -webkit-transform: translateY(8px) rotate(45deg);
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3) {
+  -webkit-transform: translateY(-8px) rotate(-45deg);
+  transform: translateY(-8px) rotate(-45deg);
+}
+.bar {
+  display: block;
+  width: 35px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #222222;
+}
+.navlink{
+  font-size: 1.5em;
+  font-weight: 400;
+  color: #475569;
+}
+
+.navlink:hover{
+  color: #482ff7;
+}
+
+.navlogo {
+  font-size: 2.1rem;
+  font-weight: 500;
+  color: #000;
+}
+
+@media only screen and (min-width: 640px) {
+   .navmenu{
+     width: 60%;
+   }
+   header .title{
+    margin-top: 15%;
+  }
+  .grid{
+    display: flex;
+  }
+  .cards{
+    width:50%;
+  }
+  .flexbox{
+    width: 70%;
+    margin-left: 15%;
   }
 }
