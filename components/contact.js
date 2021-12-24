@@ -13,13 +13,13 @@ function Contact(){
             Can contact me from here  
             </p> 
             <form className={styles.form}>
-              <label for="fname">First Name</label>
+              <label htmlFor="fname">First Name</label>
               <input type="text" className={styles.formtext} id="fname" name="firstname" placeholder="Your name.."/>
-              <label for="lname">Last Name</label>
+              <label htmlFor="lname">Last Name</label>
               <input type="text" className={styles.formtext} id="lname" name="lastname" placeholder="Your last name.."/>
-              <label for="lname">Email</label>
+              <label htmlFor="email">Email</label>
               <input type="text" className={styles.formtext} id="email" name="email" placeholder="Your email.."/>
-              <label for="lname">Text your message here</label>
+              <label htmlFor="message">Text your message here</label>
               <textarea className={styles.textarea}>Some text...</textarea>
               <div className={styles.formbutton}>
               <input type="submit" className={styles.submit} value="Submit"/>
