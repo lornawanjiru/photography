@@ -4,7 +4,7 @@ import Image from "next/image"
 function Contact(){
     return(
         <section className={styles.contact}>
-          <div className={styles.whitesection}>
+          <div className={styles.bluesection}>
             <div className={styles.flexbox}>
             <h1 className={styles.title}>
                Get In Touch

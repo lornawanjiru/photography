@@ -3,12 +3,11 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  background-image: url(../public/1.jpeg)  ;
-  background-size: cover;
-  background-repeat: no-repeat;
-
+  background-color: rgb(250, 247, 247);
 }
-
+h1, h2,h3,p{
+  color: #22262b;
+}
 a {
   color: inherit;
   text-decoration: none;

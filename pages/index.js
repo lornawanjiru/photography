@@ -44,7 +44,7 @@ export default function Home() {
           
         </div>
         <section className={styles.portfolio}>
-          <div className={styles.whitesection}>
+          <div className={styles.bluesection}>
             <span className={styles.secimg}>
                <Image src="/2.jpg" height={250} width={400}/>
             </span>
@@ -59,13 +59,13 @@ export default function Home() {
            <div className={styles.grid}>
              <div className={styles.cards}>
              <div className={styles.card}>
-              {/* <Image src="/3.jpg" layout='fill'/> */}
+              
                 </div>
                 <h2> Events photography</h2>
              </div>
              <div className={styles.cards}>
              <div className={styles.card}>
-             {/* <Image src="/4.jpg" layout='fill'/> */}
+            
             </div>
             <h2> Drone Shoots </h2>
              </div>
@@ -73,13 +73,13 @@ export default function Home() {
             <div className={styles.grid}>
              <div className={styles.cards}>
              <div className={styles.card}>
-             {/* <Image src="/5.jpg" layout='fill'/> */}
+            
                 </div>
                 <h2> Advertisement</h2>
              </div>
              <div className={styles.cards}>
              <div className={styles.card}>
-             {/* <Image src="/6.jpg" layout='fill'/> */}
+           
             </div>
             <h2> Wallpapers </h2>
              </div>
