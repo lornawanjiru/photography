@@ -81,10 +81,54 @@ header .description{
 .card{
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   box-sizing: border-box;
-  height: 15em;
+  height: 32vh;
   width: 90%;
   margin-left: 5%;
   text-align: center;
+  background:  url(../public/3.jpg) no-repeat center center ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.card1{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-sizing: border-box;
+  height: 32vh;
+  width: 90%;
+  margin-left: 5%;
+  text-align: center;
+  background:  url(../public/4.jpg) no-repeat center center ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.card2{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-sizing: border-box;
+  height: 32vh;
+  width: 90%;
+  margin-left: 5%;
+  text-align: center;
+  background:  url(../public/5.jpg) no-repeat center center ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.card3{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-sizing: border-box;
+  height: 32vh;
+  width: 90%;
+  margin-left: 5%;
+  text-align: center;
+  background:  url(../public/6.jpg) no-repeat center center ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .button{
   width: 50%;
@@ -257,9 +301,6 @@ header .description{
   .secimg{
     margin-top: 25%;
   }
-  .card{
-    height: 14em;
-  }
   .button{
     width: 40%;
   }
@@ -269,22 +310,22 @@ header .description{
   .socialicons{
     margin-left: 35%;
   }
+  .portfolio{
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+  .resume{
+    padding-bottom: 1%;
+  }
 }
 @media only screen and (min-width: 840px) {
  .secimg{
    margin-top: 20%;
  }
- .card{
-   height: 16em;
- }
+ 
 }
 @media only screen and (min-width: 940px){
-   .card{
-     height: 18em;
-   }
-   .cards{
-     width: 45%;
-   }
+   
    .secimg{
      margin-top: 12%;
    }
@@ -294,46 +335,36 @@ header .description{
   .navlogo {
     font-size: 1.8em;
   }
+  .portfolio{
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+  }
+  .resume{
+    padding-bottom: 0.5%;
+  }
 }
 @media only screen and (min-width: 1100px){
   .buttonsec{
     width: 45%;
     margin-left: 28%;
   }
-  .card{
-    margin-left: 10%;
-  }
+  
 }
 @media only screen and (min-width: 1200px){
   .secimg{
-    margin-top: 5%;
-  }
-  .cards{
-    width: 40%;
-  }
-  .card{
-    margin-left: 30%;
-  }
-  .cards h2{
-    margin-left: 40%;
+    margin-top: 10%;
   }
   .button{
     width: 30%;
   }
+  .whitesection{
+    width: 80%;
+    margin-left: 10%;
+  }
 }
 @media only screen and (min-width: 1300px){
-  .cards{
-    width: 38%;
-  }
+  
 }
 @media only screen and (min-width: 1400px){
-  .cards{
-    width: 35%;
-  }
-  .card{
-    margin-left: 43%;
-  }
-  .cards h2{
-    margin-left: 50%;
-  }
+  
 }
