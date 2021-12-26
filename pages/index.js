@@ -74,29 +74,29 @@ export default function Home() {
             </p> 
            <div className={styles.grid}>
              <div className={styles.cards}>
-             <div className={styles.card}>
-               
-                </div>
+             <span className={styles.secimg}>
+               <Image src="/3.jpg" height={250} width={400}/>
+            </span>
                 <h2> Events photography</h2>
              </div>
              <div className={styles.cards}>
-             <div className={styles.card1}>
-             
-            </div>
+             <span className={styles.secimg}>
+               <Image src="/4.jpg" height={250} width={400}/>
+            </span>
             <h2> Drone Shoots </h2>
              </div>
             </div>
             <div className={styles.grid}>
              <div className={styles.cards}>
-             <div className={styles.card2}>
-            
-                </div>
+             <span className={styles.secimg}>
+               <Image src="/5.jpg" height={250} width={400}/>
+            </span>
                 <h2> Advertisement</h2>
              </div>
              <div className={styles.cards}>
-             <div className={styles.card3}>
-            
-            </div>
+             <span className={styles.secimg}>
+               <Image src="/6.jpg" height={250} width={400}/>
+            </span>
             <h2> Wallpapers </h2>
              </div>
             </div>
