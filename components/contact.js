@@ -4,10 +4,10 @@ import Image from "next/image"
 function Contact(){
     return(
         <section className={styles.contact}>
-          <div className={styles.bluesection}>
+          <div className={styles.whitesection}>
             <div className={styles.flexbox}>
             <h1 className={styles.title}>
-               Get In Touch
+               GET IN TOUCH
             </h1>
             <hr className={styles.hr}/>
             <p className={styles.description}>

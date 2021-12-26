@@ -5,9 +5,21 @@ font-family: 'Yuji Hentaigana Akebono', cursive; */
 .container {
   text-align: center;
 }
+.bgimg{
+  background:  url(../public/back.jpeg) no-repeat center center fixed, linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+  background-blend-mode: overlay; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .hambuger{
   margin-top: 2%;
   margin-left: 87%;
+}
+header .hr{
+  border: #fff solid 1px;
 }
 .hr{
   margin-top: 5%;
@@ -17,10 +29,14 @@ font-family: 'Yuji Hentaigana Akebono', cursive; */
 
 header .title{
   margin-top: 30%;
+  color: #fff;
 }
 .title {
   line-height: 1.15;
   font-size: 2em;
+}
+header .description{
+  color: #fff;
 }
 .description {
   line-height: 1.5;
@@ -28,12 +44,35 @@ header .title{
   
 }
 .whitesection{
-  background-color: #8180B2;
+  background-color: rgba(255, 255, 255, 0.844);
   padding: 5%;
   text-align: center;
 }
-.bluesection{
-  padding: 5%;
+.buttonsec{
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin-left: 13%;
+}
+.downbutton{
+  width: 100%;
+  background-color: #000066;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.hirebutton{
+  width: 100%;
+  background-color: #000066;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 .portfolio{
   padding-top: 1.5%;
@@ -56,7 +95,7 @@ header .title{
 }
 .button{
   width: 50%;
-  background-color: #4CAF50;
+  background-color: #000066;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -95,7 +134,7 @@ header .title{
 .submit {
   width: 60%;
   font-size: 1.0em;
-  background-color: #4CAF50;
+  background-color: #000066;
   color: white;
   padding: 5% 7%;
   margin: 3%;
@@ -105,7 +144,7 @@ header .title{
 }
 
 .submit:hover {
-  background-color: #45a049;
+  background-color: #0404ba;
 }
 .socialicons{
   display: flex;
@@ -116,9 +155,13 @@ header .title{
 }
 .footer{
   font-size: .7em;
-}
-.footer{
   text-align: center;
+}
+.footer h3{
+  color: #fff;
+}
+.footer p{
+  color: #fff;
 }
 .navbar {
   display: flex;
@@ -138,12 +181,11 @@ header .title{
   border-radius: 10px;
   text-align: center;
   transition: 0.3s;
-  box-shadow:
-      0 10px 27px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
 }
 
 .navmenu.active {
-  right: 2%;
+  right: 0;
 }
 
 .navitem {
@@ -175,7 +217,7 @@ header .title{
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: #222222;
+  background-color: #fff;
 }
 .navlink{
   font-size: 1.5em;
@@ -188,9 +230,10 @@ header .title{
 }
 
 .navlogo {
-  font-size: 2.1rem;
-  font-weight: 500;
-  color: #22262b;
+  font-size: 1.5em;
+  font-weight: 400;
+  color: #fff;
+  font-family: 'Oooh Baby', cursive;
 }
 
 @media only screen and (min-width: 640px) {

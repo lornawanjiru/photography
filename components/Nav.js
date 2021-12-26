@@ -10,7 +10,7 @@ function Nav(){
     <header className={styles.header}>
         <nav className={styles.navbar}>
             <Link href='/'>
-             <a className={styles.navlogo}>My World</a>
+             <a className={styles.navlogo}>Chris Brian.</a>
             </Link>
         <ul className={isOpen === false ? 
                 styles.navmenu : styles.navmenu +' '+ styles.active}>

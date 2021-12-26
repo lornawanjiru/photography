@@ -22,14 +22,13 @@ export default function Home() {
           <p className={styles.description}>
             Hello there,
             <br/>
-            Am Chris Brian <br/>
-            This is my simple portfolio
+           Just showcasing my skills
           </p>
         </header>
         <div className={styles.whitesection}>
           <section className={styles.whoiam}>
             <span className={styles.secimg}>
-               <Image src="/1.jpg" height={250} width={400}/>
+               <Image src="/about.jpeg" height={500} width={400}/>
             </span>
             <h1 className={styles.title}>
                WHO AM I
@@ -40,16 +39,29 @@ export default function Home() {
             Consequat sed ultricies rutrum. Sed adipiscing eu amet interdum lorem blandit vis ac commodo aliquet integer vulputate
              phasellus lorem ipsum dolor lorem magna consequat sed etiam adipiscing interdum.
             </p>
+            <div className={styles.buttonsec}>
+            <div className={styles.downsec}>
+            <button className={styles.downbutton}>
+              Download cv
+            </button>
+            </div>
+            <div className={styles.hiresec}></div>
+             <a href='#'>
+             <button className={styles.hirebutton}>
+              Hire me
+            </button>
+             </a> 
+            </div>
           </section>
           
         </div>
         <section className={styles.portfolio}>
-          <div className={styles.bluesection}>
+          <div className={styles.whitesection}>
             <span className={styles.secimg}>
                <Image src="/2.jpg" height={250} width={400}/>
             </span>
             <h1 className={styles.title}>
-               Stuff I Do
+               STUFF I DO
             </h1>
             <hr className={styles.hr}/>
             <p className={styles.description}>
@@ -59,13 +71,13 @@ export default function Home() {
            <div className={styles.grid}>
              <div className={styles.cards}>
              <div className={styles.card}>
-              
+               <Image src="/3.jpg" height={300} width={400}/>
                 </div>
                 <h2> Events photography</h2>
              </div>
              <div className={styles.cards}>
              <div className={styles.card}>
-            
+             <Image src="/4.jpg" height={300} width={400}/>
             </div>
             <h2> Drone Shoots </h2>
              </div>
@@ -73,13 +85,13 @@ export default function Home() {
             <div className={styles.grid}>
              <div className={styles.cards}>
              <div className={styles.card}>
-            
+             <Image src="/5.jpg" height={300} width={400}/>
                 </div>
                 <h2> Advertisement</h2>
              </div>
              <div className={styles.cards}>
              <div className={styles.card}>
-           
+             <Image src="/6.jpg" height={300} width={400}/>
             </div>
             <h2> Wallpapers </h2>
              </div>
@@ -92,7 +104,7 @@ export default function Home() {
                <Image src="/7.jpg" height={250} width={400}/>
             </span>
             <h1 className={styles.title}>
-               Resume
+               RESUME
             </h1>
             <hr className={styles.hr}/>
             <p className={styles.description}>
