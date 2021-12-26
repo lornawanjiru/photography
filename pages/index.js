@@ -27,9 +27,11 @@ export default function Home() {
         </header>
         <div className={styles.whitesection}>
           <section className={styles.whoiam}>
-            <span className={styles.secimg}>
+           <div className={styles.grid}>
+            <div className={styles.secimg}>
                <Image src="/about.jpeg" height={500} width={400}/>
-            </span>
+            </div>
+            <div className={styles.details}>
             <h1 className={styles.title}>
                WHO AM I
             </h1>
@@ -51,6 +53,8 @@ export default function Home() {
               Hire me
             </button>
              </a> 
+            </div>
+            </div>
             </div>
           </section>
           

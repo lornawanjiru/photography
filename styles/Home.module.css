@@ -129,8 +129,8 @@ header .description{
   font-size: 1.0em;
   background-color: #000066;
   color: white;
-  padding: 5% 7%;
-  margin: 3%;
+  padding: 14px 20px;
+  margin: 8px 0;
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -243,7 +243,97 @@ header .description{
     width:50%;
   }
   .flexbox{
+    width: 60%;
+    margin-left: 20%;
+  }
+  .buttonsec{
+    width: 65%;
+    
+  }
+  .details{
     width: 70%;
-    margin-left: 15%;
+    padding: 5%;
+  }
+  .secimg{
+    margin-top: 25%;
+  }
+  .card{
+    height: 14em;
+  }
+  .button{
+    width: 40%;
+  }
+  .submit {
+    width: 40%;
+  }
+  .socialicons{
+    margin-left: 35%;
+  }
+}
+@media only screen and (min-width: 840px) {
+ .secimg{
+   margin-top: 20%;
+ }
+ .card{
+   height: 16em;
+ }
+}
+@media only screen and (min-width: 940px){
+   .card{
+     height: 18em;
+   }
+   .cards{
+     width: 45%;
+   }
+   .secimg{
+     margin-top: 12%;
+   }
+   .navmenu{
+    width: 40%;
+  }
+  .navlogo {
+    font-size: 1.8em;
+  }
+}
+@media only screen and (min-width: 1100px){
+  .buttonsec{
+    width: 45%;
+    margin-left: 28%;
+  }
+  .card{
+    margin-left: 10%;
+  }
+}
+@media only screen and (min-width: 1200px){
+  .secimg{
+    margin-top: 5%;
+  }
+  .cards{
+    width: 40%;
+  }
+  .card{
+    margin-left: 30%;
+  }
+  .cards h2{
+    margin-left: 40%;
+  }
+  .button{
+    width: 30%;
+  }
+}
+@media only screen and (min-width: 1300px){
+  .cards{
+    width: 38%;
+  }
+}
+@media only screen and (min-width: 1400px){
+  .cards{
+    width: 35%;
+  }
+  .card{
+    margin-left: 43%;
+  }
+  .cards h2{
+    margin-left: 50%;
   }
 }
