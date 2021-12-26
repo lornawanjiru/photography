@@ -5,14 +5,7 @@ font-family: 'Yuji Hentaigana Akebono', cursive; */
 .container {
   text-align: center;
 }
-.bgimg{
-  background:  url(../public/back.jpeg) no-repeat center center fixed, linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
-  background-blend-mode: overlay; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
+
 
 .hambuger{
   margin-top: 2%;

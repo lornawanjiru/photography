@@ -3,7 +3,12 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  
+  background:  url(../public/back.jpeg) no-repeat center center fixed, linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+  background-blend-mode: overlay; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 h1{
   color: #001247;
