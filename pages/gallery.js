@@ -66,10 +66,10 @@ function Gallery(){
           </p>
       </header>
       <div id="myBtnContainer">
-        <button className={styles.btnactive} onclick="filterSelection('all')"> Show all</button>
-        <button className={styles.btn} onclick="filterSelection('nature')"> Nature</button>
-        <button className={styles.btn} onclick="filterSelection('cars')"> Cars</button>
-        <button className={styles.btn} onclick="filterSelection('people')"> People</button>
+        <button className={styles.btnactive} onClick="filterSelection('all')"> Show all</button>
+        <button className={styles.btn} onClick="filterSelection('nature')"> Nature</button>
+        <button className={styles.btn} onClick="filterSelection('cars')"> Cars</button>
+        <button className={styles.btn} onClick="filterSelection('people')"> People</button>
       </div>
       <div className={styles.row}>
         <div className={styles.column}>
