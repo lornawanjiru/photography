@@ -33,7 +33,7 @@ header .description{
 }
 .description {
   line-height: 1.5;
-  font-size: 1.5rem;
+  font-size: 1.3em;
   
 }
 .whitesection{
@@ -57,6 +57,9 @@ header .description{
   border-radius: 4px;
   cursor: pointer;
 }
+.downbutton:hover {
+  background-color: #0404ba;
+}
 .hirebutton{
   width: 100%;
   background-color: #000066;
@@ -66,6 +69,9 @@ header .description{
   border: none;
   border-radius: 4px;
   cursor: pointer;
+}
+.hirebutton:hover {
+  background-color: #0404ba;
 }
 .portfolio{
   padding-top: 1.5%;
@@ -450,6 +456,9 @@ header .description{
   .resume{
     padding-bottom: 0.5%;
   }
+  .description{
+    font-size: 1.1em;
+  }
 }
 @media only screen and (min-width: 1100px){
   .buttonsec{
@@ -457,10 +466,11 @@ header .description{
     margin-left: 28%;
   }
   
+  
 }
 @media only screen and (min-width: 1200px){
   .secimg{
-    margin-top: 10%;
+    margin-top: 2%;
   }
   .button{
     width: 30%;

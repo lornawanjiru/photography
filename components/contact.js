@@ -2,8 +2,22 @@ import styles from "../styles/Home.module.css"
 import Image from "next/image"
 
 function Contact(){
+  async function handleOnSubmit(e){
+    // Dont submit to the browser hence wont overwhelm the browser
+    e.preventdefault();
+    const formData = {}
+    // creating a array that will make it iterable as we access our elements
+    Array.from(e.currentTarget.elements).forEach(field=>{
+      if(!field.name) return;
+      formData[field.name] = field.value;
+    });
+    fetch('/api/mail',{
+      method : 'post',
+      body : JSON.stringify(formData)
+    })
+  }
     return(
-        <section className={styles.contact}>
+        <section className={styles.contact} id="contact">
           <div className={styles.whitesection}>
             <div className={styles.flexbox}>
             <h1 className={styles.title}>
@@ -13,7 +27,7 @@ function Contact(){
             <p className={styles.description}>
             Can contact me from here  
             </p> 
-            <form className={styles.form}>
+            <form className={styles.form} method="post" onSubmit={handleOnSubmit}>
               <label htmlFor="fname">First Name</label>
               <input type="text" className={styles.formtext} id="fname" name="firstname" placeholder="Your name.."/>
               <label htmlFor="lname">Last Name</label>

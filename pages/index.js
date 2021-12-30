@@ -2,6 +2,9 @@ import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import Image from 'next/image';
 import Contact from '../components/contact';
+import Link from 'next/link'
+
+
 
 export default function Home() {
   return (
@@ -47,12 +50,13 @@ export default function Home() {
               Download cv
             </button>
             </div>
-            <div className={styles.hiresec}></div>
-             <a href='#'>
-             <button className={styles.hirebutton}>
-              Hire me
-            </button>
-             </a> 
+            <div className={styles.hiresec}>
+               <Link href='#contact' smooth={true} >
+               <button className={styles.hirebutton}>
+                  Hire me
+               </button>   
+               </Link>
+              </div> 
             </div>
             </div>
             </div>
@@ -62,7 +66,7 @@ export default function Home() {
         <section className={styles.portfolio}>
           <div className={styles.whitesection}>
             <span className={styles.secimg}>
-               <Image src="/2.jpg" height={250} width={400}/>
+               <Image src="/2.jpg" height={250} width={350}/>
             </span>
             <h1 className={styles.title}>
                STUFF I DO

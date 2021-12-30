@@ -4,6 +4,11 @@ function Resume(){
          
  return(
     <div className={styles.container}>
+       <Head>
+        <title>My Portfolio</title>
+        <meta name="description" content="Chris Brian Portfolio" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <header>
           <h1 className={styles.title}>
             My Resume
