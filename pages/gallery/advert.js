@@ -5,6 +5,22 @@ import Image from 'next/image';
 function Adverts(){
     return(
       <div className={styles.container}>
+         <Head>
+        <title>Chris Brian</title>
+        <meta name="description" content="My Portfolio" />
+        <link rel="icon" href="/icon.png" />
+      </Head>
+      <header>
+          <h1 className={styles.title}>
+            My Gallery
+          </h1>
+          <hr className={styles.hr}/>
+          <p className={styles.description}>
+           Capturing the moment
+            <br/>
+           Chris Brian.
+          </p>
+      </header>
       <div className={styles.whitesection}>
         <h1 className={styles.title}>
             Advertisement

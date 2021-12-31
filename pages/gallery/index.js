@@ -6,9 +6,9 @@ function Gallery(){
     return(
       <div className={styles.container}>
         <Head>
-        <title>My Portfolio</title>
-        <meta name="description" content="Chris Brian Portfolio" />
-        <link rel="icon" href="/favicon.ico" />
+        <title>Chris Brian</title>
+        <meta name="description" content="My Portfolio" />
+        <link rel="icon" href="/icon.png" />
       </Head>
       <header>
           <h1 className={styles.title}>
