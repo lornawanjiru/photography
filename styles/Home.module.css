@@ -57,6 +57,10 @@ header .description{
   border-radius: 4px;
   cursor: pointer;
 }
+
+.resumebut:hover {
+  background-color: #0404ba;
+}
 .downbutton:hover {
   background-color: #0404ba;
 }
@@ -84,57 +88,8 @@ header .description{
 .footer {
   font-size: .9em;
 }
-.card{
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  box-sizing: border-box;
-  height: 32vh;
-  width: 90%;
-  margin-left: 5%;
-  text-align: center;
-  background:  url(../public/3.jpg) no-repeat center center ;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-.card1{
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  box-sizing: border-box;
-  height: 32vh;
-  width: 90%;
-  margin-left: 5%;
-  text-align: center;
-  background:  url(../public/4.jpg) no-repeat center center ; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-.card2{
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  box-sizing: border-box;
-  height: 32vh;
-  width: 90%;
-  margin-left: 5%;
-  text-align: center;
-  background:  url(../public/5.jpg) no-repeat center center ; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-.card3{
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  box-sizing: border-box;
-  height: 32vh;
-  width: 90%;
-  margin-left: 5%;
-  text-align: center;
-  background:  url(../public/6.jpg) no-repeat center center ;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+.grid .secimg{
+  cursor: pointer;
 }
 .button{
   width: 50%;
@@ -292,7 +247,7 @@ header .description{
 }
 
 .dropdowncontent {
-  text-align: right;
+  text-align: center;
   display: none;
   background-color: #fff;
   width: 100%;
@@ -337,7 +292,7 @@ header .description{
     
 }
 .timelineitem:nth-child(even){
-   
+    
     padding-left: 37px;
 }
 .timelinedot{
@@ -355,12 +310,12 @@ header .description{
 	margin:6px 0 15px;
 }
 .timelinecontent{
-    background-color: #060661;
+  background-color: #060661;
 	padding: 30px;
 	border-radius: 5px;
 }
 .timelinecontent h3{
-    font-size: 20px;
+  font-size: 20px;
 	color: #ffffff;
 	margin:0 0 10px;
 	text-transform: capitalize;
@@ -380,10 +335,11 @@ header .description{
 	}
 	.timelineitem:nth-child(odd){
     padding-right: calc(50% + 30px);
-	  text-align: right;
+	  text-align: left;
 	}
 	.timelineitem:nth-child(even){
     padding-left: calc(50% + 30px);
+    text-align: left;
 	}
 	.timelinedot{
 		left: calc(50% - 8px);
@@ -465,7 +421,10 @@ header .description{
     width: 45%;
     margin-left: 28%;
   }
-  
+  .navmenu{
+    width: 20%;
+    
+  }
   
 }
 @media only screen and (min-width: 1200px){

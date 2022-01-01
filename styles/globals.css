@@ -10,7 +10,9 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
-
+Link{
+  cursor: pointer;
+}
 h1{
   color: #001247;
 }

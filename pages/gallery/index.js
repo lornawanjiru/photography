@@ -1,19 +1,24 @@
 import styles from '../../styles/Home.module.css';
 import Image from 'next/image';
-
+import Head from 'next/head';
 
 function Gallery(){
     return(
       <div className={styles.container}>
+        <Head>
+        <title>My Portfolio</title>
+        <meta name="description" content="Chris Brian Portfolio" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <header>
           <h1 className={styles.title}>
             My Gallery
           </h1>
           <hr className={styles.hr}/>
           <p className={styles.description}>
-            Hello there,
+           Capturing the moment
             <br/>
-           Just showcasing my skills
+           Chris Brian.
           </p>
       </header>
       <div className={styles.whitesection}>

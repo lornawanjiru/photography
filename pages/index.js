@@ -32,7 +32,7 @@ export default function Home() {
           <section className={styles.whoiam}>
            <div className={styles.grid}>
             <div className={styles.secimg}>
-               <Image src="/about.jpeg" height={500} width={400}/>
+               <Image src="/back.jpeg" height={500} width={400}/>
             </div>
             <div className={styles.details}>
             <h1 className={styles.title}>
@@ -40,15 +40,25 @@ export default function Home() {
             </h1>
             <hr className={styles.hr}/>
             <p className={styles.description}>
-            Aliquam ante ac id. Adipiscing interdum lorem praesent fusce pellentesque arcu feugiat. 
-            Consequat sed ultricies rutrum. Sed adipiscing eu amet interdum lorem blandit vis ac commodo aliquet integer vulputate
-             phasellus lorem ipsum dolor lorem magna consequat sed etiam adipiscing interdum.
+                          Experienced and passionate Cinematographer with
+              extensive industry experience, training, and proven
+              success in cinematography. Adept in overseeing all
+              aspects of film production, including camera lens
+              choices, camera manipulation, lighting choices, set
+              design, and various technological matters that affect the
+              overall visual outcome in the film. Bringing forth the
+              ability to collaborative effectively with others, and
+              prioritize the goals of the film efficiently. Enthusiastic
+              and committed to creating thought and emotion
+              provoking cinema.
             </p>
             <div className={styles.buttonsec}>
             <div className={styles.downsec}>
+              <Link href="/cv.pdf" target="_blank" download>
             <button className={styles.downbutton}>
               Download cv
             </button>
+             </Link>
             </div>
             <div className={styles.hiresec}>
                <Link href='#contact' smooth={true} >
@@ -73,35 +83,64 @@ export default function Home() {
             </h1>
             <hr className={styles.hr}/>
             <p className={styles.description}>
-            Aliquam ante ac id. Adipiscing interdum lorem praesent fusce pellentesque arcu feugiat. 
-            Consequat sed ultricies rutrum. 
+                          Demonstrate flexibility and integrity, and bring
+              outstanding dedication to the organization’s tasks while
+              gaining experience in various cinematography sub
+              sections by working within a team of highly competent
+              professionals.
             </p> 
            <div className={styles.grid}>
              <div className={styles.cards}>
+             <Link href='/gallery/events'> 
              <span className={styles.secimg}>
                <Image src="/3.jpg" height={250} width={400}/>
-            </span>
+             </span>
+             </Link>
                 <h2> Events photography</h2>
              </div>
              <div className={styles.cards}>
+             <Link href='/gallery/drone'> 
              <span className={styles.secimg}>
                <Image src="/4.jpg" height={250} width={400}/>
             </span>
+            </Link>
             <h2> Drone Shoots </h2>
              </div>
             </div>
             <div className={styles.grid}>
              <div className={styles.cards}>
+             <Link href='/gallery/advert'> 
              <span className={styles.secimg}>
                <Image src="/5.jpg" height={250} width={400}/>
             </span>
+            </Link>
                 <h2> Advertisement</h2>
              </div>
              <div className={styles.cards}>
+             <Link href='/gallery/wallpaper'> 
              <span className={styles.secimg}>
                <Image src="/6.jpg" height={250} width={400}/>
             </span>
+            </Link>
             <h2> Wallpapers </h2>
+             </div>
+            </div>
+            <div className={styles.grid}>
+             <div className={styles.cards}>
+             <Link href='/gallery/portraits'> 
+             <span className={styles.secimg}>
+               <Image src="/3.jpg" height={250} width={400}/>
+            </span>
+            </Link>
+                <h2> Portraits </h2>
+             </div>
+             <div className={styles.cards}>
+             {/* <Link href='/gallery/wallpaper'> 
+             <span className={styles.secimg}>
+               <Image src="/6.jpg" height={250} width={400}/>
+            </span>
+            </Link>
+            <h2> Wallpapers </h2> */}
              </div>
             </div>
           </div>
@@ -116,12 +155,14 @@ export default function Home() {
             </h1>
             <hr className={styles.hr}/>
             <p className={styles.description}>
-            Aliquam ante ac id. Adipiscing interdum lorem praesent fusce pellentesque arcu feugiat. 
-            Consequat sed ultricies rutrum. 
+            Going through my resume will help you understand much about me. It will prove my experience and ablity to 
+            do the task at hand. 
             </p> 
+            <Link href='/resume'> 
             <button className={styles.button}>
               Resume
             </button>
+            </Link>
           </div>
         </section> 
         <Contact/>
