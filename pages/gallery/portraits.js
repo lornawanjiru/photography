@@ -3,9 +3,6 @@ import Image from 'next/image';
 import Head from 'next/head';
 
 
-export const config = {
-  unstable_runtimeJS:false
-}
 
 
 function Portraits(){
