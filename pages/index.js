@@ -4,7 +4,9 @@ import Image from 'next/image';
 import Contact from '../components/contact';
 import Link from 'next/link'
 
-
+export const config = {
+  unstable_runtimeJS:false
+}
 
 export default function Home() {
   return (
