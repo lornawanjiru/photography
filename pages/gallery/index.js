@@ -2,6 +2,10 @@ import styles from '../../styles/Home.module.css';
 import Image from 'next/image';
 import Head from 'next/head';
 
+export const config = {
+  unstable_runtimeJS:false
+}
+
 function Gallery(){
     return(
       <div className={styles.container}>

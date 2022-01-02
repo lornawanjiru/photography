@@ -1,5 +1,10 @@
 import styles from '../styles/Home.module.css';
 import Head from 'next/head';
+
+export const config = {
+  unstable_runtimeJS:false
+}
+
 function Resume(){
          
  return(
