@@ -1,0 +1,54 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background:  url(../public/back.jpeg) no-repeat center center fixed, linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+  background-blend-mode: overlay; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+Link{
+  cursor: pointer;
+}
+h1{
+  color: #001247;
+}
+
+h2,h3,p{
+  color: #22262b;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  font-size: inherit;
+}
+button {
+background: transparent;
+border: none;
+cursor: pointer;
+padding: 0;
+}
+
+button:hover,
+button:focus {
+  background:transparent;
+}
+
+button:focus {
+  outline: none;
+
+}
+
+* {
+  box-sizing: border-box;
+}
